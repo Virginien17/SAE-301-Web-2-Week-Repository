@@ -18,10 +18,10 @@
         exit();
     }
 
-    if ($_POST["mail"]==$admin["mail"] && $_POST["mdp"]==$admin["mdp"]) {
+    /*if ($_POST["mail"]==$admin["mail"] && $_POST["mdp"]==$admin["mdp"]) {
         header('Location: ../compte.php');
         exit();
-    }
+    }*/
 
     else {
         header('Location: ../index.php');
