@@ -12,11 +12,10 @@
     $requete='SELECT mail, mdp FROM `compte`';
     $resultats=$bdd->query($requete);
     $compte=$resultats->fetchAll(PDO::FETCH_ASSOC);
-    $resultats->closeCursor()
+    $resultats->closeCursor();
 
 
-    if ($_POST["mail"]==$admin["mail"] && $_POST["mdp"]===$admin["mdp"])
-    {
+    if ($_POST["mail"]==$admin["mail"] && $_POST["mdp"]==$admin["mdp"]) {
         header('Location: admin.php');
         exit();
     }
