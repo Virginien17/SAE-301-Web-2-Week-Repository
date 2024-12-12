@@ -6,6 +6,6 @@
     <title>Accueil</title>
 </head>
 <body>
-    <p>oherigoi'"g</p>
+    
 </body>
 </html>
